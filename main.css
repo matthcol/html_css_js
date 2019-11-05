@@ -1,0 +1,61 @@
+nav ul {
+	background: aquamarine;
+}
+
+nav > ul {
+	color: red;
+} 
+
+.textao {
+	color: blue;
+}
+
+h2.textao {
+	color: #ef8383;
+	font-size: 2em;
+}
+
+
+input[type="text"] {
+	background-color: yellow;
+}
+
+input[value*="mer"] {
+	color: red;
+}
+
+li {
+	margin: 2px 2px;
+}
+
+nav {
+	background-color: black;	
+}
+
+nav div:nth-child(odd){
+	background-color: grey;
+}
+nav div:nth-child(even){
+	background-color: lightgrey;
+}
+
+li:hover {
+	color: red;
+}
+
+main {
+	display: flex;
+	flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+	aside {
+		display: none;
+	}
+}
+
+
+
+
+
+
