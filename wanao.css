@@ -1,3 +1,23 @@
 header {
 	background-color: orange;
 }
+
+section {
+	background-color: aquamarine;
+}
+
+#categories div {
+	background-color: green;
+}
+
+@media screen and (max-width: 768px) {  
+	#categories { 
+		display: flex;
+		flex-direction: row;
+	}
+	#categories div {
+		margin: 0 1rem 0 1rem;
+	}
+}
+	
+}
